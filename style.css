@@ -1,0 +1,168 @@
+/*
+Copyright (C) 2014 Maciej Mionskowski
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    background: url('img/bg.jpg');
+    background-size: cover;
+    color: #eee;
+    
+    font-family: Arial;
+}
+
+a:link, a:visited {
+    color: #27ae60;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #27ae60;
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    padding: 0 10px;
+    height: 50px;
+    border-bottom: 5px solid #27ae60;
+    background: #222;
+}
+
+header h1 {
+    font-weight: 100;
+    font-size: 18pt;
+}
+
+header a:link, header a:visited {
+    color: #eee;
+}
+
+header a:hover, header a:focus {
+    text-decoration: none;
+}
+
+span.desc {
+    font-size: 8pt;
+    display: block;
+    clear: both;
+}
+
+span.domain {
+    color: #27ae60;
+    font-size: 8pt;
+    text-transform: lowercase;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    padding-top: 20%;
+}
+
+.info {
+    width: auto;
+    background: #222;
+    border: 2px #27ae60 solid; 
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 100;
+    border-radius: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    background: #222;
+    margin-top: 5px;
+    color: #27ae60;
+    font-size: 15pt;
+    border-radius: 5px;
+    padding: 5px;
+    height: 40px;
+    border: 0;
+    transition: border 0.2s;
+}
+
+input:focus {
+    outline: 0;
+    border: 2px #27ae60 solid; 
+transition: border 0.2s;
+}
+
+.url {
+    width: 80%;
+}
+
+.code {
+    width: 40%;
+}
+
+.submit {
+    width: 30%;
+}
+
+label {
+    display: none;
+}
+
+fieldset {
+    border: 0;
+}
+
+.nav {
+    display: inline-block;
+    float:right;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li:after {
+    content: '.';
+    margin: 0 5px;
+    color: #eee;
+    display: inline-block;
+
+}
+
+footer {
+    width: 100%;
+    font-size: 8pt;
+    background: #222;
+    border-top: 5px solid #27ae60;
+    position: absolute;
+    bottom: 0;
+    padding: 5px 5px;
+    height: auto;
+}

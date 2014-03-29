@@ -1,0 +1,5 @@
+This is the URL shorting system used on <a href="http://sooo.ga">sooo.ga</a>
+
+To get working on your hosting you must visit:
+- .htaccess
+- /etc/config.class.php
