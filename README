@@ -1,5 +1,13 @@
-This is the URL shorting system used on <a href="http://sooo.ga">sooo.ga</a>
+#Url shortening
 
-To get working on your hosting you must visit:
-- .htaccess
-- /etc/config.class.php
+*This is the URL shorting system used on sooo.ga*
+
+##Installation
+
+To get it working on your hosting you must visit:
+* .htaccess - change rewrite base
+* /etc/config.class.php - change mysql connection settings, base path, and address
+
+**In order this to work you will need mysql database with table represented in tables.sql file.**
+
+*This software is licensed under GNU/GPL, see LICENSE for more information. Feel free to use*
